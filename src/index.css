@@ -5,7 +5,7 @@ body {
 }
 
 .ubuntu {
-  font-family: "Ubuntu";
+  font-family: "Ubuntu" !important;
 }
 
 code {
