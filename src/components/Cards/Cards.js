@@ -3,9 +3,9 @@ import styles from "./Cards.module.scss";
 
 const Cards = ({ results }) => {
     let display;
-    console.log(results)
-    if(results){
-        display = results.map((data)=> {
+   
+   if(results){
+       display = results.map((data)=> {
             let { id, name, image, location, status } = data;
             return ( 
                 <div key={ id } className="col-4 mb-4 position-relative">
